@@ -1,18 +1,5 @@
----
-title: 'COMM 232 Understanding Film'
----
+# COMM 232 Understanding Film
 
-```{r}
-#| label: load-packages
-#| include: false
-
-library(tidyverse)
-library(palmerpenguins)
-```
-
-::: {.column-margin}
-
-<br><br><br><br><br>
 [Franklin Pierce University](https://www.franklinpierce.edu/index.html)  
 [Communication Program](https://www.franklinpierce.edu/academics/programs/communications.html)  
 Fall Semester 2025  
@@ -20,15 +7,10 @@ Class meetings: Tues/Thur 10:50-12:05
 Class location: Fitz 101  
 Instructor: Dr. Martin Roberts  
 Office: Green Room, Fitz  
-Office hours: Thursday 09:30-10:30 a.m.  
-<br>
-[{{< fa regular envelope >}}](mailto:robertsm@franklinpierce.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/fpu-understanding-film-fa25) \| 
-[{{< fa brands bluesky >}}](https://bsky.app/profile/dokoissho.bsky.social)
+Office hrs: Thursday 09:30-10:30 a.m. 
 
-:::
+This course examines film as a cultural text, focusing on aspects such as genre, movement, and style, and elements such as scriptwriting, story structure, character development, cinematography, editing, and sound. Students will examine how each of these elements contributes to influencing the viewing experience. Films screened are primarily classic American films, but current Hollywood, experimental, or international films may also be included. Addresses GLE Learning Outcomes Arts and Design (AD), Oral Communication (OC), and Applied Learning (AL). Prerequisite: GLE110.
 
-<br><br>This course examines film as a cultural text, focusing on aspects such as genre, movement, and style, and elements such as scriptwriting, story structure, character development, cinematography, editing, and sound. Students will examine how each of these elements contributes to influencing the viewing experience. Films screened are primarily classic American films, but current Hollywood, experimental, or international films may also be included. Addresses GLE Learning Outcomes Arts and Design (AD), Oral Communication (OC), and Applied Learning (AL). Prerequisite: GLE110.
-<br>
 ## Reading Assignments
 
 Ed Sikov, *Film Studies: An Introduction*. Second edition. New York: Columbia University Press, 2020. Please order this book either as a print copy or an ebook as soon as possible.
