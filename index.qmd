@@ -1,0 +1,355 @@
+---
+title: 'COMM 232 Understanding Film'
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
+::: {.column-margin}
+
+<br><br><br><br><br>
+[Franklin Pierce University](https://www.franklinpierce.edu/index.html)  
+[Communication Program](https://www.franklinpierce.edu/academics/programs/communications.html)  
+Fall Semester 2025  
+Class meetings: Tues/Thur 10:50-12:05  
+Class location: Fitz 101  
+Instructor: Dr. Martin Roberts  
+Office: Green Room, Fitz  
+Office hours: Thursday 09:30-10:30 a.m.  
+
+:::
+
+<br><br>This course examines film as a cultural text, focusing on aspects such as genre, movement, and style, and elements such as scriptwriting, story structure, character development, cinematography, editing, and sound. Students will examine how each of these elements contributes to influencing the viewing experience. Films screened are primarily classic American films, but current Hollywood, experimental, or international films may also be included. Addresses GLE Learning Outcomes Arts and Design (AD), Oral Communication (OC), and Applied Learning (AL). Prerequisite: GLE110.
+<br>
+## Reading Assignments
+
+Ed Sikov, *Film Studies: An Introduction*. Second edition. New York: Columbia University Press, 2020. Please order this book either as a print copy or an ebook as soon as possible.
+
+Most readings will be available as PDFs via links in the syllabus. Please download all PDFs, print them out and mark them up when reading.
+
+## Assignments & Evaluation
+
+Details and rubrics for each of these assignments will be provided.
+
+Homework exercises (based on Sikov, *Film Studies*) (4, biweekly): 20%  
+Midterm quiz: 20%  
+Film essay 20%  
+Final quiz: 20%  
+Engagement (includes attendance and participation in both in-person and online discussion): 20%
+
+## Class Schedule
+
+*Week 1*
+
+08/26 Introduction
+
+08/28  **What Is (a) Film?**
+
+- [*The Definition of Film*](https://vimeo.com/128097765) (Richard Misek, 2015)
+- [*The Rise of Film TikTok*](https://youtu.be/iqajurNSp1Q) (Queline Meadows, 2021)
+
+---
+
+*Week 2*
+
+09/02 **Cinematic Mode**
+
+- Ryuichi Sakamoto, "[As the competition closes](https://www.sitesakamoto.com/contest/)"
+- [*Stu Maschwitz on 24p, from a 2010 MacVideo Interview*](https://youtu.be/iCCmAjsNq*8)
+
+09/04 
+
+- [*Detectives*](https://youtu.be/9oU*myNlk1A) (Apple, 2022)  
+- [*Whodunnit*](https://youtu.be/289zm-hlMWk) (Apple, 2022)
+- [*Why Do A24 Films Look Like That?*](https://youtu.be/Y4EFuZxEtNI)
+
+See also: Matt Zoller Seitz and Chris Wade, “[What Does ‘Cinematic TV’ Really Mean?](https://www.vulture.com/2015/10/cinematic-tv-what-does-it-really-mean.html)” (Vulture, 21 October 2015)
+
+---
+
+*Week 3*
+
+09/09  **What is Film Analysis?**
+
+- Norman N. Holland, [“Seeing Movies Today—Alas](https://www.asharperfocus.com/Seeing-Movies-Now.html)  
+- Norman N. Holland, [“Criticism vs. Reviewing”](https://www.asharperfocus.com/criticism.html)
+
+09/11
+
+- Sikov, “[Mise-en-scène](pdf/sikov-mise-en-scene-1-2.pdf")" (*Film Studies*, chs. 1-2)
+- [Kogonada video essays](https://kogonada.com/archive)
+
+**DEADLINE: Homework 1: Shot Analysis**
+
+---
+
+*Week 4*
+
+09/16 
+
+NO CLASS (Instructor Absent)
+
+- Sikov, "[Montage](pdf/sikov-montage.pdf")" (*Film Studies*, ch. 4)
+
+09/18  **Kino-eye**
+
+- [Kino-eye readings](pdf/Kino-eye-readings.pdf)  (Krakauer, Michelson, Vertov)
+
+- Watch: *The History of Cutting*, 15 mins.
+- [*Man With A Movie Camera*](https://franklinpierce.on.worldcat.org/oclc/52408086) (Dziga Vertov, 1929) [on DVD at the library]
+
+---
+
+*Week 5*
+
+09/23 Sikov, *Film Studies*, ch. 3 (“Cinematography”)
+
+09/25 
+
+**Hollywood**
+
+- Dixon and Foster, “[The Hollywood Studio System in the 1930s and 1940s](pdf/dixon-foster-ch4.pdf)” (*A Short History of Film*, chapter 4)
+- Farran Smith Nehme, “[George Cukor’s Way With Women](https://www.criterion.com/current/posts/6331-george-cukor-s-way-with-women)” (Criterion, 2 May 2019)
+
+In-class: What *Price Hollywood?* (George Cukor, 1932) [excerpt]
+
+**DEADLINE: Homework 2: Opening Sequence**
+
+---
+
+*Week 6*
+
+09/30 **Color**
+
+- Richard Misek, "[Film Color](pdf/Film-Color.pdf)" (in *Chromatic Cinema: A History of Screen Color* (Chichester: Wiley-Blackwell, 2010), ch. 1)
+
+- Video essay: [Color *Motifs in ‘Black Narcissus*](https://www.criterionchannel.com/color-motifs-in-black-narcissus) (Kristin Thompson, 2018) [Criterion Channel - requires subscription]
+
+10/02  
+
+- Maria Helena Braga e Vaz da Costa, "[Color in Films: A Critical Overview](pdf/Color-in-Films.pdf)"
+- [Timeline of Historical Film Colors](https://filmcolors.org/)
+
+---
+
+*Week 7*
+
+10/07  **Narrative**
+
+- Sikov, *Film Studies*, ch. 6 (“Narrative: From Scene to Scene”)
+
+10/09 
+
+- Sikov, ch. 7 ("From Screenplay to Film")
+- "[Fabula and Syuzhet](https://en.wikipedia.org/wiki/Fabula*and*syuzhet)" (*Wikipedia*)
+
+---
+
+*Week 8*
+
+10/14 NO CLASS (Fall Break)
+
+10/16 **Midterm Quiz**
+
+[Study Guide](https://franklinpierce.instructure.com/courses/19450/pages/midterm-quiz-study-guide "Midterm Quiz: Study Guide")
+
+[Example: last year's quiz](https://franklinpierce.instructure.com/courses/19450/pages/midterm-quiz-fall-2023 "Midterm Quiz - Fall 2023")
+
+---
+
+*Week 9*
+
+10/21 **Auteurism and the New Wave**
+
+- Sikov, *Film Studies*, ch. 8 (“Filmmakers”)
+- Alexandre Astruc, “[The Birth of a New Avant-Garde: La Caméra-Stylo](http://www.newwavefilm.com/about/camera-stylo-astruc.shtml)”
+
+François Truffaut, “[A Certain Tendency of French Cinema](http://www.newwavefilm.com/about/a-certain-tendency-of-french-cinema-truffaut.shtml)”
+
+10/23 
+
+- [French New Wave](https://cinemawavesblog.com/movements/french-new-wave/) (CinemaWaves website)
+- Samuel Harries, [Movements in Film: French New Wave](https://www.movementsinfilm.com/french-new-wave)
+- [French New Wave: Where to Start](http://www.newwavefilm.com/new-wave-cinema-guide/nouvelle-vague-where-to-start.shtml)
+
+Recommended films:
+
+- *The 400 Blows* (François Truffaut, 1959)  
+- *Breathless* (Jean-Luc Godard, 1960)  
+- *Cleo from 5 to 7* (Agnes Varda, 1961)
+
+---
+
+*Week 10*
+
+10/28 **Soundtracks**
+
+- Sikov, "Sound" (Film Studies, ch. 5)
+
+10/30 
+
+[Mark Korven](https://markkorven.com/) YouTube videos  
+[Mark Korven Vimeo](https://vimeo.com/user3424223)
+
+Watch: *The Witch* (Robert Eggers, 2015)
+
+**DEADLINE: Homework 3: Editing**
+
+---
+
+*Week 11*
+
+11/04 
+
+11/06 **Art**
+
+- David Bordwell, "[The Art Cinema as a Mode of Film Practice](pdf/bordwell-art-cinema.pdf)
+
+In-class: *La Notte* (Michelangelo Antonioni, 1962) (excerpt)
+
+---
+
+*Week 12*
+
+11/11  **Genre**
+
+- Sikov, *Film Studies*, ch. 10 (“Genre”)
+- Rick Altman, "[A Semantic/Syntactic Approach to Film Genre](pdf/altman-genre.pdf")
+
+11/13 
+
+- Ginette Vincendeau, “[How The French Birthed Film Noir](https://www2.bfi.org.uk/news-opinion/sight-sound-magazine/features/deep-focus/french-film-noir)”*
+- 
+---
+
+*Week 13*
+
+11/18   **Digital Cinema**
+
+Sikov, *Film Studies*, ch. 13 (“Film Studies in the Era of Digital Cinema”)
+
+11/20  
+
+- Graham Edwards, "[Explosive Cocktail](https://franklinpierce.instructure.com/courses/19450/files/2982722?wrap=1 "explosive-cocktail.pdf") [Download Explosive Cocktail](https://franklinpierce.instructure.com/courses/19450/files/2982722/download?download*frd=1)" (*Cinefex* 145 (February 2016): 12-39
+ - Prince, *Digital Cinema* (selected chs.)
+
+**DEADLINE: Homework 4: Genre**
+
+---
+
+*Week 14*
+
+11/25
+
+11/27 NO CLASS (Thanksgiving)
+
+---
+
+*Week 15*
+
+12/02 
+
+12/04 Conclusion
+
+---
+
+12/05 Classes End
+
+12/06-07 Reading Days
+
+12/08-11 Final Exam Period
+
+---
+
+## Policies & Procedures
+
+### How to do well in this class
+
+Attend all scheduled classes.
+
+Be on time. Don't leave early.
+
+Complete all reading assignments **before** the scheduled class.
+
+Watch all assigned films.
+
+Take notes. The Cornell note-taking system is recommended. If you don't take notes during class, you will forget 90% of what was discussed there. 
+
+Use a free note-taking app like [Obsidian](https://obsidian.md/) and learn how to write in Markdown format. 
+
+Ask questions. These should be academic (i.e. related to course topics and materials) rather than administrative (due dates, rubrics etc.).
+
+Administrative questions should be asked outside class, either in person after class or via Canvas Inbox.
+
+### Attendance
+
+Attendance of all scheduled classes is mandatory. Attendance is taken at the beginning of class; if you arrive late, you may miss rolecall, in which case remember to ask to be recorded as Late after class.
+
+### Punctuality
+
+Class begins at 10:50 a.m. and ends at 12:05 p.m. Be sure to arrive in time for the beginning of class. Class does not end until students are dismissed: please do not leave early. Arrival after 11 a.m. will be recorded as Late (L), and three Late count as one Absence. If you need to leave early, please notify me of this before class as a courtesy.
+
+### Absences
+
+You are permitted up to two (2) Excused absences, and a maximum of four (4) absences for any reason.
+
+If you reach 4 absences, you are required to arrange a meeting with me to discuss your status in the course.
+
+### Excused/Unexcused Absence
+
+Absences are recorded as Excused (E) in case of health, emergency, bereavement, professional development (e.g. job interview), or participation in a University sports team. For more than two (2) absences in case of health issues, a doctor's note is required. All other absences are recorded as Unexcused (U).
+
+### Sports Teams
+
+If you are unable to attend a class due to attending sports events, you are required to email me a list of dates when you expect to be absent. After the missed class, you are required to schedule a meeting with me during my office hour (Thursday 9:30-10:30) to discuss what was missed during your absence.
+
+### Communication
+
+Please use Canvas Inbox for all course-related questions. Other questions can be sent via email ([robertsm@franklinpierce.edu](mailto:robertsm@franklinpierce.edu)). I try to reply to direct messages within 24 hours (except on weekends), and will expect you to do the same.
+
+### Notifications
+
+It is strongly recommended to disable notifications on Canvas. 
+
+## Classroom Protocol
+
+### Food and Drink
+
+You may bring a drink to class, but please do not eat when class is in progress.
+
+### Sleeping in class
+
+You are expected to remain alert and attentive at all times during class. If you fall asleep during class, you will receive an informal verbal warning. If the problem recurs, you will receive a second written warning. If the problem continues after this, it will significantly affect your Engagement grade for the course (20%). 
+
+### Cellphones
+
+The use of cellphones during class is strictly forbidden.
+
+### Headphones
+
+The use of headphones or earbuds during class is strictly forbidden 
+
+### Laptop Privileges
+
+The use of laptops or tablets (e.g. iPads) is permitted during class for taking notes ONLY. Any other use is unauthorized, and if detected will result in the withdrawal of your laptop privileges for the remainder of the semester. This means that you will be required to take notes by hand with pen and paper from that point on.
+
+### Timeouts
+
+Since this is a short class (1.25 hrs), you are expected to remain present in class throughout except in case of emergency. Please do not keep walking in and out of class. This applies particularly when screenings are in progress.
+
+### Hoods
+
+Hoods must be worn **down** at all times. This is so that I can see at all times that you are not using headphones (see above). Room temperature does not require wearing of hats or other headgear.
+
+### Warnings and Engagement Grade
+
+Non-compliance with the above policies will result in an initial verbal warning.
+
+If the non-compliance continues, I will request a meeting with you to discuss the issue, and it will impact your Engagement grade (20%).
+
+---

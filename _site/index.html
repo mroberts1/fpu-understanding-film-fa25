@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>COMM 232 Understanding Film –</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-c9365b40915786e5a15583efa63ea7dd.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4880bc30a814e133965dc67851ff9622.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-c9365b40915786e5a15583efa63ea7dd.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-acc10749e9978129c438826bf0109172.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a232fdcdd2fa7f01250f54779a474725.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-acc10749e9978129c438826bf0109172.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="custom.scss">
+</head>
+
+<body class="floating slimcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+   
+  <ul>
+  <li><a href="#assignments-evaluation" id="toc-assignments-evaluation" class="nav-link active" data-scroll-target="#assignments-evaluation">Assignments &amp; Evaluation</a></li>
+  <li><a href="#class-schedule" id="toc-class-schedule" class="nav-link" data-scroll-target="#class-schedule">Class Schedule</a></li>
+  <li><a href="#policies-procedures" id="toc-policies-procedures" class="nav-link" data-scroll-target="#policies-procedures">Policies &amp; Procedures</a>
+  <ul class="collapse">
+  <li><a href="#how-to-do-well-in-this-class" id="toc-how-to-do-well-in-this-class" class="nav-link" data-scroll-target="#how-to-do-well-in-this-class">How to do well in this class</a></li>
+  <li><a href="#attendance" id="toc-attendance" class="nav-link" data-scroll-target="#attendance">Attendance</a></li>
+  <li><a href="#punctuality" id="toc-punctuality" class="nav-link" data-scroll-target="#punctuality">Punctuality</a></li>
+  <li><a href="#absences" id="toc-absences" class="nav-link" data-scroll-target="#absences">Absences</a></li>
+  <li><a href="#excusedunexcused-absence" id="toc-excusedunexcused-absence" class="nav-link" data-scroll-target="#excusedunexcused-absence">Excused/Unexcused Absence</a></li>
+  <li><a href="#sports-teams" id="toc-sports-teams" class="nav-link" data-scroll-target="#sports-teams">Sports Teams</a></li>
+  <li><a href="#communication" id="toc-communication" class="nav-link" data-scroll-target="#communication">Communication</a></li>
+  <li><a href="#notifications" id="toc-notifications" class="nav-link" data-scroll-target="#notifications">Notifications</a></li>
+  </ul></li>
+  <li><a href="#classroom-protocol" id="toc-classroom-protocol" class="nav-link" data-scroll-target="#classroom-protocol">Classroom Protocol</a>
+  <ul class="collapse">
+  <li><a href="#food-and-drink" id="toc-food-and-drink" class="nav-link" data-scroll-target="#food-and-drink">Food and Drink</a></li>
+  <li><a href="#sleeping-in-class" id="toc-sleeping-in-class" class="nav-link" data-scroll-target="#sleeping-in-class">Sleeping in class</a></li>
+  <li><a href="#cellphones" id="toc-cellphones" class="nav-link" data-scroll-target="#cellphones">Cellphones</a></li>
+  <li><a href="#headphones" id="toc-headphones" class="nav-link" data-scroll-target="#headphones">Headphones</a></li>
+  <li><a href="#laptop-privileges" id="toc-laptop-privileges" class="nav-link" data-scroll-target="#laptop-privileges">Laptop Privileges</a></li>
+  <li><a href="#timeouts" id="toc-timeouts" class="nav-link" data-scroll-target="#timeouts">Timeouts</a></li>
+  <li><a href="#hoods" id="toc-hoods" class="nav-link" data-scroll-target="#hoods">Hoods</a></li>
+  <li><a href="#warnings-and-engagement-grade" id="toc-warnings-and-engagement-grade" class="nav-link" data-scroll-target="#warnings-and-engagement-grade">Warnings and Engagement Grade</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">COMM 232 Understanding Film</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><br><br><br><br><br> <a href="https://www.franklinpierce.edu/index.html">Franklin Pierce University</a><br>
+<a href="https://www.franklinpierce.edu/academics/programs/communications.html">Communication Program</a><br>
+Fall Semester 2025<br>
+Class meetings: Tues/Thur 10:50-12:05<br>
+Class location: Fitz 101<br>
+Instructor: Dr.&nbsp;Martin Roberts<br>
+Office: Green Room, Fitz<br>
+Office hours: Thursday 09:30-10:30 a.m.</p>
+</div></div><p><br><br>This course examines film as a cultural text, focusing on aspects such as genre, movement, and style, and elements such as scriptwriting, story structure, character development, cinematography, editing, and sound. Students will examine how each of these elements contributes to influencing the viewing experience. Films screened are primarily classic American films, but current Hollywood, experimental, or international films may also be included. Addresses GLE Learning Outcomes Arts and Design (AD), Oral Communication (OC), and Applied Learning (AL). Prerequisite: GLE110. <br> ## Reading Assignments</p>
+<p>Ed Sikov,&nbsp;<em>Film Studies: An Introduction</em>. Second edition. New York: Columbia University Press, 2020. Please order this book either as a print copy or an ebook as soon as possible.</p>
+<p>Most readings will be available as PDFs via links in the syllabus. Please download all PDFs, print them out and mark them up when reading.</p>
+<section id="assignments-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="assignments-evaluation">Assignments &amp; Evaluation</h2>
+<p>Details and rubrics for each of these assignments will be provided.</p>
+<p>Homework exercises (based on Sikov,&nbsp;<em>Film Studies</em>) (4, biweekly): 20%<br>
+Midterm quiz: 20%<br>
+Film essay 20%<br>
+Final quiz: 20%<br>
+Engagement (includes attendance and participation in both in-person and online discussion): 20%</p>
+</section>
+<section id="class-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="class-schedule">Class Schedule</h2>
+<p><em>Week 1</em></p>
+<p>08/26 Introduction</p>
+<p>08/28&nbsp;&nbsp;<strong>What Is (a) Film?</strong></p>
+<ul>
+<li><a href="https://vimeo.com/128097765"><em>The Definition of Film</em></a>&nbsp;(Richard Misek, 2015)</li>
+<li><a href="https://youtu.be/iqajurNSp1Q"><em>The Rise of Film TikTok</em></a>&nbsp;(Queline Meadows, 2021)</li>
+</ul>
+<hr>
+<p><em>Week 2</em></p>
+<p>09/02&nbsp;<strong>Cinematic Mode</strong></p>
+<ul>
+<li>Ryuichi Sakamoto, “<a href="https://www.sitesakamoto.com/contest/">As the competition closes</a>”</li>
+<li><a href="https://youtu.be/iCCmAjsNq*8"><em>Stu Maschwitz on 24p, from a 2010 MacVideo Interview</em></a></li>
+</ul>
+<p>09/04&nbsp;</p>
+<ul>
+<li><a href="https://youtu.be/9oU*myNlk1A"><em>Detectives</em></a> (Apple, 2022)<br>
+</li>
+<li><a href="https://youtu.be/289zm-hlMWk"><em>Whodunnit</em></a> (Apple, 2022)</li>
+<li><a href="https://youtu.be/Y4EFuZxEtNI"><em>Why Do A24 Films Look Like That?</em></a></li>
+</ul>
+<p>See also: Matt Zoller Seitz and Chris Wade,&nbsp;“<a href="https://www.vulture.com/2015/10/cinematic-tv-what-does-it-really-mean.html">What Does ‘Cinematic TV’ Really Mean?</a>” (Vulture, 21 October 2015)</p>
+<hr>
+<p><em>Week 3</em></p>
+<p>09/09 &nbsp;<strong>What is Film Analysis?</strong></p>
+<ul>
+<li>Norman N. Holland,&nbsp;<a href="https://www.asharperfocus.com/Seeing-Movies-Now.html">“Seeing Movies Today—Alas</a><br>
+</li>
+<li>Norman N. Holland,&nbsp;<a href="https://www.asharperfocus.com/criticism.html">“Criticism vs.&nbsp;Reviewing”</a></li>
+</ul>
+<p>09/11</p>
+<ul>
+<li>Sikov, “<a href="pdf/sikov-mise-en-scene-1-2.pdf&quot;">Mise-en-scène</a>” (<em>Film Studies</em>, chs.&nbsp;1-2)</li>
+<li><a href="https://kogonada.com/archive">Kogonada video essays</a></li>
+</ul>
+<p><strong>DEADLINE: Homework 1: Shot Analysis</strong></p>
+<hr>
+<p><em>Week 4</em></p>
+<p>09/16</p>
+<p>NO CLASS (Instructor Absent)</p>
+<ul>
+<li>Sikov, “<a href="pdf/sikov-montage.pdf&quot;">Montage</a>” (<em>Film Studies</em>, ch.&nbsp;4)</li>
+</ul>
+<p>09/18&nbsp;&nbsp;<strong>Kino-eye</strong></p>
+<ul>
+<li><p><a href="pdf/Kino-eye-readings.pdf">Kino-eye readings</a>&nbsp;&nbsp;(Krakauer, Michelson, Vertov)</p></li>
+<li><p>Watch:&nbsp;<em>The History of Cutting</em>, 15 mins.</p></li>
+<li><p><a href="https://franklinpierce.on.worldcat.org/oclc/52408086"><em>Man With A Movie Camera</em></a>&nbsp;(Dziga Vertov, 1929) [on DVD at the library]</p></li>
+</ul>
+<hr>
+<p><em>Week 5</em></p>
+<p>09/23 Sikov,&nbsp;<em>Film Studies</em>, ch.&nbsp;3 (“Cinematography”)</p>
+<p>09/25&nbsp;</p>
+<p><strong>Hollywood</strong></p>
+<ul>
+<li>Dixon and Foster, “<a href="pdf/dixon-foster-ch4.pdf">The Hollywood Studio System in the 1930s and 1940s</a>” (<em>A Short History of Film</em>, chapter 4)</li>
+<li>Farran Smith Nehme, “<a href="https://www.criterion.com/current/posts/6331-george-cukor-s-way-with-women">George Cukor’s Way With Women</a>” (Criterion, 2 May 2019)</li>
+</ul>
+<p>In-class: What&nbsp;<em>Price Hollywood?</em>&nbsp;(George Cukor, 1932) [excerpt]</p>
+<p><strong>DEADLINE: Homework 2: Opening Sequence</strong></p>
+<hr>
+<p><em>Week 6</em></p>
+<p>09/30&nbsp;<strong>Color</strong></p>
+<ul>
+<li><p>Richard Misek, “<a href="pdf/Film-Color.pdf">Film Color</a>” (in&nbsp;<em>Chromatic Cinema: A History of Screen Color</em>&nbsp;(Chichester: Wiley-Blackwell, 2010), ch.&nbsp;1)</p></li>
+<li><p>Video essay:&nbsp;<a href="https://www.criterionchannel.com/color-motifs-in-black-narcissus">Color&nbsp;<em>Motifs in ’Black Narcissus</em></a>&nbsp;(Kristin Thompson, 2018) [Criterion Channel - requires subscription]</p></li>
+</ul>
+<p>10/02 &nbsp;</p>
+<ul>
+<li>Maria Helena Braga e Vaz da Costa, “<a href="pdf/Color-in-Films.pdf">Color in Films: A Critical Overview</a>”</li>
+<li><a href="https://filmcolors.org/">Timeline of Historical Film Colors</a></li>
+</ul>
+<hr>
+<p><em>Week 7</em></p>
+<p>10/07 &nbsp;<strong>Narrative</strong></p>
+<ul>
+<li>Sikov,&nbsp;<em>Film Studies</em>, ch.&nbsp;6 (“Narrative: From Scene to Scene”)</li>
+</ul>
+<p>10/09&nbsp;</p>
+<ul>
+<li>Sikov, ch.&nbsp;7 (“From Screenplay to Film”)</li>
+<li>“<a href="https://en.wikipedia.org/wiki/Fabula*and*syuzhet">Fabula and Syuzhet</a>” (<em>Wikipedia</em>)</li>
+</ul>
+<hr>
+<p><em>Week 8</em></p>
+<p>10/14 NO CLASS (Fall Break)</p>
+<p>10/16&nbsp;<strong>Midterm Quiz</strong></p>
+<p><a href="https://franklinpierce.instructure.com/courses/19450/pages/midterm-quiz-study-guide" title="Midterm Quiz: Study Guide">Study Guide</a></p>
+<p><a href="https://franklinpierce.instructure.com/courses/19450/pages/midterm-quiz-fall-2023" title="Midterm Quiz - Fall 2023">Example: last year’s quiz</a></p>
+<hr>
+<p><em>Week 9</em></p>
+<p>10/21 <strong>Auteurism and the New Wave</strong></p>
+<ul>
+<li>Sikov,&nbsp;<em>Film Studies</em>, ch.&nbsp;8 (“Filmmakers”)</li>
+<li>Alexandre Astruc, “<a href="http://www.newwavefilm.com/about/camera-stylo-astruc.shtml">The Birth of a New Avant-Garde: La Caméra-Stylo</a>”</li>
+</ul>
+<p>François Truffaut, “<a href="http://www.newwavefilm.com/about/a-certain-tendency-of-french-cinema-truffaut.shtml">A Certain Tendency of French Cinema</a>”</p>
+<p>10/23&nbsp;</p>
+<ul>
+<li><a href="https://cinemawavesblog.com/movements/french-new-wave/">French New Wave</a>&nbsp;(CinemaWaves website)</li>
+<li>Samuel Harries,&nbsp;<a href="https://www.movementsinfilm.com/french-new-wave">Movements in Film: French New Wave</a></li>
+<li><a href="http://www.newwavefilm.com/new-wave-cinema-guide/nouvelle-vague-where-to-start.shtml">French New Wave: Where to Start</a></li>
+</ul>
+<p>Recommended films:</p>
+<ul>
+<li><em>The 400 Blows</em>&nbsp;(François Truffaut, 1959)<br>
+</li>
+<li><em>Breathless</em>&nbsp;(Jean-Luc Godard, 1960)<br>
+</li>
+<li><em>Cleo from 5 to 7</em>&nbsp;(Agnes Varda, 1961)</li>
+</ul>
+<hr>
+<p><em>Week 10</em></p>
+<p>10/28&nbsp;<strong>Soundtracks</strong></p>
+<ul>
+<li>Sikov, “Sound” (Film Studies, ch.&nbsp;5)</li>
+</ul>
+<p>10/30&nbsp;</p>
+<p><a href="https://markkorven.com/">Mark Korven</a>&nbsp;YouTube videos<br>
+<a href="https://vimeo.com/user3424223">Mark Korven Vimeo</a></p>
+<p>Watch:&nbsp;<em>The Witch</em>&nbsp;(Robert Eggers, 2015)</p>
+<p><strong>DEADLINE: Homework 3: Editing</strong></p>
+<hr>
+<p><em>Week 11</em></p>
+<p>11/04&nbsp;</p>
+<p>11/06&nbsp;<strong>Art</strong></p>
+<ul>
+<li>David Bordwell, “<a href="pdf/bordwell-art-cinema.pdf">The Art Cinema as a Mode of Film Practice</a></li>
+</ul>
+<p>In-class:&nbsp;<em>La Notte</em>&nbsp;(Michelangelo Antonioni, 1962) (excerpt)</p>
+<hr>
+<p><em>Week 12</em></p>
+<p>11/11&nbsp;&nbsp;<strong>Genre</strong></p>
+<ul>
+<li>Sikov,&nbsp;<em>Film Studies</em>, ch.&nbsp;10 (“Genre”)</li>
+<li>Rick Altman, “<a href="pdf/altman-genre.pdf&quot;">A Semantic/Syntactic Approach to Film Genre</a></li>
+</ul>
+<p>11/13&nbsp;</p>
+<ul>
+<li>Ginette Vincendeau, “<a href="https://www2.bfi.org.uk/news-opinion/sight-sound-magazine/features/deep-focus/french-film-noir">How The French Birthed Film Noir</a>”*</li>
+<li><hr></li>
+</ul>
+<p><em>Week 13</em></p>
+<p>11/18 &nbsp;&nbsp;<strong>Digital Cinema</strong></p>
+<p>Sikov,&nbsp;<em>Film Studies</em>, ch.&nbsp;13 (“Film Studies in the Era of Digital Cinema”)</p>
+<p>11/20 &nbsp;</p>
+<ul>
+<li>Graham Edwards, “<a href="https://franklinpierce.instructure.com/courses/19450/files/2982722?wrap=1" title="explosive-cocktail.pdf">Explosive Cocktail</a>&nbsp;<a href="https://franklinpierce.instructure.com/courses/19450/files/2982722/download?download*frd=1">Download Explosive Cocktail</a>” (<em>Cinefex</em>&nbsp;145 (February 2016): 12-39 &nbsp;- Prince,&nbsp;<em>Digital Cinema</em>&nbsp;(selected chs.)</li>
+</ul>
+<p><strong>DEADLINE: Homework 4: Genre</strong></p>
+<hr>
+<p><em>Week 14</em></p>
+<p>11/25</p>
+<p>11/27 NO CLASS (Thanksgiving)</p>
+<hr>
+<p><em>Week 15</em></p>
+<p>12/02&nbsp;</p>
+<p>12/04&nbsp;Conclusion</p>
+<hr>
+<p>12/05 Classes End</p>
+<p>12/06-07 Reading Days</p>
+<p>12/08-11 Final Exam Period</p>
+<hr>
+</section>
+<section id="policies-procedures" class="level2">
+<h2 class="anchored" data-anchor-id="policies-procedures">Policies &amp; Procedures</h2>
+<section id="how-to-do-well-in-this-class" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-do-well-in-this-class">How to do well in this class</h3>
+<p>Attend all scheduled classes.</p>
+<p>Be on time. Don’t leave early.</p>
+<p>Complete all reading assignments <strong>before</strong> the scheduled class.</p>
+<p>Watch all assigned films.</p>
+<p>Take notes. The Cornell note-taking system is recommended. If you don’t take notes during class, you will forget 90% of what was discussed there.&nbsp;</p>
+<p>Use a free note-taking app like&nbsp;<a href="https://obsidian.md/">Obsidian</a>&nbsp;and learn how to write in Markdown format.&nbsp;</p>
+<p>Ask questions. These should be academic (i.e.&nbsp;related to course topics and materials) rather than administrative (due dates, rubrics etc.).</p>
+<p>Administrative questions should be asked outside class, either in person after class or via Canvas Inbox.</p>
+</section>
+<section id="attendance" class="level3">
+<h3 class="anchored" data-anchor-id="attendance">Attendance</h3>
+<p>Attendance of all scheduled classes is mandatory. Attendance is taken at the beginning of class; if you arrive late, you may miss rolecall, in which case remember to ask to be recorded as Late after class.</p>
+</section>
+<section id="punctuality" class="level3">
+<h3 class="anchored" data-anchor-id="punctuality">Punctuality</h3>
+<p>Class begins at 10:50 a.m. and ends at 12:05 p.m. Be sure to arrive in time for the beginning of class. Class does not end until students are dismissed: please do not leave early. Arrival after 11 a.m. will be recorded as Late (L), and three Late count as one Absence. If you need to leave early, please notify me of this before class as a courtesy.</p>
+</section>
+<section id="absences" class="level3">
+<h3 class="anchored" data-anchor-id="absences">Absences</h3>
+<p>You are permitted up to two (2) Excused absences, and a maximum of four (4) absences for any reason.</p>
+<p>If you reach 4 absences, you are required to arrange a meeting with me to discuss your status in the course.</p>
+</section>
+<section id="excusedunexcused-absence" class="level3">
+<h3 class="anchored" data-anchor-id="excusedunexcused-absence">Excused/Unexcused Absence</h3>
+<p>Absences are recorded as Excused (E) in case of health, emergency, bereavement, professional development (e.g.&nbsp;job interview), or participation in a University sports team. For more than two (2) absences in case of health issues, a doctor’s note is required. All other absences are recorded as Unexcused (U).</p>
+</section>
+<section id="sports-teams" class="level3">
+<h3 class="anchored" data-anchor-id="sports-teams">Sports Teams</h3>
+<p>If you are unable to attend a class due to attending sports events, you are required to email me a list of dates when you expect to be absent. After the missed class, you are required to schedule a meeting with me during my office hour (Thursday 9:30-10:30) to discuss what was missed during your absence.</p>
+</section>
+<section id="communication" class="level3">
+<h3 class="anchored" data-anchor-id="communication">Communication</h3>
+<p>Please use Canvas Inbox for all course-related questions. Other questions can be sent via email (<a href="mailto:robertsm@franklinpierce.edu">robertsm@franklinpierce.edu</a>).&nbsp;I try to reply to direct messages within 24 hours (except on weekends), and will expect you to do the same.</p>
+</section>
+<section id="notifications" class="level3">
+<h3 class="anchored" data-anchor-id="notifications">Notifications</h3>
+<p>It is strongly recommended to disable notifications on Canvas.&nbsp;</p>
+</section>
+</section>
+<section id="classroom-protocol" class="level2">
+<h2 class="anchored" data-anchor-id="classroom-protocol">Classroom Protocol</h2>
+<section id="food-and-drink" class="level3">
+<h3 class="anchored" data-anchor-id="food-and-drink">Food and Drink</h3>
+<p>You may bring a drink to class, but please do not eat when class is in progress.</p>
+</section>
+<section id="sleeping-in-class" class="level3">
+<h3 class="anchored" data-anchor-id="sleeping-in-class">Sleeping in class</h3>
+<p>You are expected to remain alert and attentive at all times during class. If you fall asleep during class, you will receive an informal verbal warning. If the problem recurs, you will receive a second written warning. If the problem continues after this, it will significantly affect your Engagement grade for the course (20%).&nbsp;</p>
+</section>
+<section id="cellphones" class="level3">
+<h3 class="anchored" data-anchor-id="cellphones">Cellphones</h3>
+<p>The use of cellphones during class is strictly forbidden.</p>
+</section>
+<section id="headphones" class="level3">
+<h3 class="anchored" data-anchor-id="headphones">Headphones</h3>
+<p>The use of headphones or earbuds during class is strictly forbidden&nbsp;</p>
+</section>
+<section id="laptop-privileges" class="level3">
+<h3 class="anchored" data-anchor-id="laptop-privileges">Laptop Privileges</h3>
+<p>The use of laptops or tablets (e.g.&nbsp;iPads) is permitted during class for taking notes ONLY. Any other use is unauthorized, and if detected will result in the withdrawal of your laptop privileges for the remainder of the semester. This means that you will be required to take notes by hand with pen and paper from that point on.</p>
+</section>
+<section id="timeouts" class="level3">
+<h3 class="anchored" data-anchor-id="timeouts">Timeouts</h3>
+<p>Since this is a short class (1.25 hrs), you are expected to remain present in class throughout except in case of emergency. Please do not keep walking in and out of class. This applies particularly when screenings are in progress.</p>
+</section>
+<section id="hoods" class="level3">
+<h3 class="anchored" data-anchor-id="hoods">Hoods</h3>
+<p>Hoods must be worn&nbsp;<strong>down</strong>&nbsp;at all times. This is so that I can see at all times that you are not using headphones (see above). Room temperature does not require wearing of hats or other headgear.</p>
+</section>
+<section id="warnings-and-engagement-grade" class="level3">
+<h3 class="anchored" data-anchor-id="warnings-and-engagement-grade">Warnings and Engagement Grade</h3>
+<p>Non-compliance with the above policies will result in an initial verbal warning.</p>
+<p>If the non-compliance continues, I will request a meeting with you to discuss the issue, and it will impact your Engagement grade (20%).</p>
+<hr>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/mroberts1\.github\.io\/fpu-understanding-film-fa25\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
