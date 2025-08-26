@@ -1,5 +1,5 @@
 ---
-title: 'COMM 232 Understanding Film'
+title: 'COMM232 Understanding Film'
 ---
 
 ```{r}
@@ -32,7 +32,9 @@ Office hours: Thursday 09:30-10:30 a.m.
 
 Ed Sikov, *Film Studies: An Introduction*. Second edition. New York: Columbia University Press, 2020. Please order this book either as a print copy or an ebook as soon as possible.
 
-Most readings will be available as PDFs via links in the syllabus. Please download all PDFs, print them out and mark them up when reading.
+Karen Gocsik, Dave Monahan, and Richard Barsam, *Writing About Movies*. Fifth edition. New York: W.W. Norton and Company, Inc., 2019.
+
+Other readings will be available as PDFs via links in the syllabus. Please download all PDFs, print them out and mark them up when reading.
 
 ## Assignments & Evaluation
 
@@ -72,6 +74,8 @@ Engagement (includes attendance and participation in both in-person and online d
 
 See also: Matt Zoller Seitz and Chris Wade, “[What Does ‘Cinematic TV’ Really Mean?](https://www.vulture.com/2015/10/cinematic-tv-what-does-it-really-mean.html)” (Vulture, 21 October 2015)
 
+- Gocsik, Monahan, and Barsam, "The Challenges of Writing About Movies" (*Writing About Movies*, ch. 1)
+
 ---
 
 *Week 3*
@@ -86,7 +90,7 @@ See also: Matt Zoller Seitz and Chris Wade, “[What Does ‘Cinematic TV’ Re
 - Sikov, “[Mise-en-scène](pdf/sikov-mise-en-scene-1-2.pdf")" (*Film Studies*, chs. 1-2)
 - [Kogonada video essays](https://kogonada.com/archive)
 
-**DEADLINE: Homework 1: Shot Analysis**
+- Gocsik, Monahan, and Barsam, "Looking at Movies" (*Writing About Movies*, ch. 2)
 
 ---
 
@@ -105,11 +109,15 @@ NO CLASS (Instructor Absent)
 - Watch: *The History of Cutting*, 15 mins.
 - [*Man With A Movie Camera*](https://franklinpierce.on.worldcat.org/oclc/52408086) (Dziga Vertov, 1929) [on DVD at the library]
 
+- Gocsik, Monahan, and Barsam, "Formal Analysis" (*Writing About Movies*, ch. 3)
+
 ---
 
 *Week 5*
 
-09/23 Sikov, *Film Studies*, ch. 3 (“Cinematography”)
+09/23 
+
+- Sikov, *Film Studies*, ch. 3 (“Cinematography”)
 
 09/25 
 
@@ -119,6 +127,8 @@ NO CLASS (Instructor Absent)
 - Farran Smith Nehme, “[George Cukor’s Way With Women](https://www.criterion.com/current/posts/6331-george-cukor-s-way-with-women)” (Criterion, 2 May 2019)
 
 In-class: What *Price Hollywood?* (George Cukor, 1932) [excerpt]
+
+- Gocsik, Monahan, and Barsam, "Cultural Analysis" (*Writing About Movies*, ch. 4)
 
 **DEADLINE: Homework 2: Opening Sequence**
 
@@ -137,6 +147,8 @@ In-class: What *Price Hollywood?* (George Cukor, 1932) [excerpt]
 - Maria Helena Braga e Vaz da Costa, "[Color in Films: A Critical Overview](pdf/Color-in-Films.pdf)"
 - [Timeline of Historical Film Colors](https://filmcolors.org/)
 
+- Gocsik, Monahan, and Barsam, "Generating Ideas" (*Writing About Movies*, ch. 5)
+
 ---
 
 *Week 7*
@@ -149,6 +161,8 @@ In-class: What *Price Hollywood?* (George Cukor, 1932) [excerpt]
 
 - Sikov, ch. 7 ("From Screenplay to Film")
 - "[Fabula and Syuzhet](https://en.wikipedia.org/wiki/Fabula*and*syuzhet)" (*Wikipedia*)
+
+- Gocsik, Monahan, and Barsam, "Researching Movies" (*Writing About Movies*, ch. 6)
 
 ---
 
@@ -185,6 +199,8 @@ Recommended films:
 - *Breathless* (Jean-Luc Godard, 1960)  
 - *Cleo from 5 to 7* (Agnes Varda, 1961)
 
+Gocsik, Monahan, and Barsam, "Developing Your Thesis" (*Writing About Movies*, ch. 7)
+
 ---
 
 *Week 10*
@@ -202,6 +218,8 @@ Watch: *The Witch* (Robert Eggers, 2015)
 
 **DEADLINE: Homework 3: Editing**
 
+- Gocsik, Monahan, and Barsam, "Attending to Style" (*Writing About Movies*, ch. 8)
+
 ---
 
 *Week 11*
@@ -211,6 +229,8 @@ Watch: *The Witch* (Robert Eggers, 2015)
 11/06 **Art**
 
 - David Bordwell, "[The Art Cinema as a Mode of Film Practice](pdf/bordwell-art-cinema.pdf)
+
+- Gocsik, Monahan, and Barsam, "Considering Structure and Organization" (*Writing About Movies*, ch. 9)
 
 In-class: *La Notte* (Michelangelo Antonioni, 1962) (excerpt)
 
@@ -225,8 +245,10 @@ In-class: *La Notte* (Michelangelo Antonioni, 1962) (excerpt)
 
 11/13 
 
-- Ginette Vincendeau, “[How The French Birthed Film Noir](https://www2.bfi.org.uk/news-opinion/sight-sound-magazine/features/deep-focus/french-film-noir)”*
-- 
+- Ginette Vincendeau, “[How The French Birthed Film Noir](https://www2.bfi.org.uk/news-opinion/sight-sound-magazine/features/deep-focus/french-film-noir)”
+
+- Gocsik, Monahan, and Barsam, "Revising Your Work (*Writing About Movies*), ch. 10)
+
 ---
 
 *Week 13*
