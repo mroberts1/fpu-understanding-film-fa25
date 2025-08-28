@@ -39,13 +39,10 @@ Other readings will be available as PDFs via links in the syllabus. Please downl
 
 ## Assignments & Evaluation
 
-Details and rubrics for each of these assignments will be provided.
-
-Homework exercises (based on Sikov, *Film Studies*) (4, biweekly): 20%  
-Midterm quiz: 20%  
-Film essay 20%  
-Final quiz: 20%  
-Engagement (includes attendance and participation in both in-person and online discussion): 20%
+Homework exercises (based on Sikov, Film Studies) (4, biweekly): 50%  
+Midterm (take-home): 15%  
+Final (take-home): 15%  
+Engagement (including attendance): 20%  
 
 ## Class Schedule
 
@@ -53,13 +50,13 @@ Engagement (includes attendance and participation in both in-person and online d
 
 08/26 Introduction
 
-08/28  **What Is (a) Film?**
-
 ::: {.column-margin}
 
 {{< video https://vimeo.com/128097765 >}}
 
 :::
+
+08/28  **What Is (a) Film?**
 
 - [*The Definition of Film*](https://www.richardmisek.com/the-definition-of-film) (Richard Misek, 2015)
 
@@ -67,15 +64,16 @@ Engagement (includes attendance and participation in both in-person and online d
 
 *Week 2*
 
-09/02 **Cinematic Mode**
+09/02 **What Is Cinema?**
 
-- [*Detectives*](https://youtu.be/9oU*myNlk1A) (Apple, 2022)  
+André Bazin, "[Ontology of the Photographic Image](pdf/bazin-ontology.pdf)"
+
+09/04 **The Cinematic**
+
+- [*Detectives*](https://youtu.be/9oU*myNlk1A) (Apple, 2022)
 - [*Whodunnit*](https://youtu.be/289zm-hlMWk) (Apple, 2022)
 - [*Why Do A24 Films Look Like That?*](https://youtu.be/Y4EFuZxEtNI)
-
-See also: Matt Zoller Seitz and Chris Wade, “[What Does ‘Cinematic TV’ Really Mean?](https://www.vulture.com/2015/10/cinematic-tv-what-does-it-really-mean.html)” (Vulture, 21 October 2015)
-
-09/04 
+- Matt Zoller Seitz and Chris Wade, “[What Does ‘Cinematic TV’ Really Mean?](https://www.vulture.com/2015/10/cinematic-tv-what-does-it-really-mean.html)” (*Vulture*, 21 October 2015)
 
 - Gocsik, Monahan, and Barsam, "The Challenges of Writing About Movies" (*Writing About Movies*, ch. 1)
 

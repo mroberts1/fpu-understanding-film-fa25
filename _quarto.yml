@@ -10,8 +10,8 @@ website:
   #   creator: "@mroberts_vma"
   #   card-style: summary_large_image
   # favicon: "/img/cropped-cropped-flourish-1-270x270.gif"
-  # navbar:
-  #   background: "#62259d"
+  navbar:
+    background: "#960000"
   #   search: true
   #   right:
   #     - icon: envelope
@@ -40,11 +40,12 @@ format:
       dark: [ember.scss, slate]
     css: custom.scss
     self-contained: false
-    grid:
-        sidebar-width: 300px
-        body-width: 800px
-        margin-width: 300px
-        gutter-width: 1em
+    page-layout: article
+    # grid:
+    #     sidebar-width: 350px
+    #     body-width: 700px
+    #     margin-width: 350px
+    #     gutter-width: 2em
     linestretch: 1.5
     fontsize: 1em
     smooth-scroll: true
