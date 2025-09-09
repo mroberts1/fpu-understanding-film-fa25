@@ -2,6 +2,7 @@ project:
   type: website
   resources:
   - "pdf/*.pdf"
+  - "fonts/**"
   
 website:
   title: "    "
