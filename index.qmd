@@ -58,7 +58,7 @@ Engagement (including attendance): 20%
 
 08/28  **What Is (a) Film?**
 
-- [*The Definition of Film*](https://www.richardmisek.com/the-definition-of-film) (Richard Misek, 2015)
+- *The Definition of Film* (Richard Misek, 2015)
 
 ---
 
@@ -66,13 +66,23 @@ Engagement (including attendance): 20%
 
 09/02 **What Is Cinema?**
 
+::: {.column-margin}
+
+{{< video https://youtu.be/9oU*myNlk1A >}}<br>
+
+{{< video https://youtu.be/289zm-hlMWk >}}<br>
+
+{{< video https://youtu.be/Y4EFuZxEtNI >}}
+
+:::
+
 André Bazin, "[Ontology of the Photographic Image](pdf/bazin-ontology.pdf)"
 
 09/04 **The Cinematic**
 
-- [*Detectives*](https://youtu.be/9oU*myNlk1A) (Apple, 2022)
-- [*Whodunnit*](https://youtu.be/289zm-hlMWk) (Apple, 2022)
-- [*Why Do A24 Films Look Like That?*](https://youtu.be/Y4EFuZxEtNI)
+- *Detectives* (Apple, 2022)
+- *Whodunnit* (Apple, 2022)
+- *Why Do A24 Films Look Like That?*
 - Matt Zoller Seitz and Chris Wade, “[What Does ‘Cinematic TV’ Really Mean?](https://www.vulture.com/2015/10/cinematic-tv-what-does-it-really-mean.html)” (*Vulture*, 21 October 2015)
 
 - Gocsik, Monahan, and Barsam, "The Challenges of Writing About Movies" (*Writing About Movies*, ch. 1)
@@ -88,7 +98,7 @@ André Bazin, "[Ontology of the Photographic Image](pdf/bazin-ontology.pdf)"
 
 09/11
 
-- Sikov, “[Mise-en-scène](pdf/sikov-mise-en-scene-1-2.pdf")" (*Film Studies*, chs. 1-2)
+- Sikov, “[Mise-en-scène](pdf/sikov-mise-en-scene-1-2.pdf)" (*Film Studies*, chs. 1-2)
 - [Kogonada video essays](https://kogonada.com/archive)
 
 - Gocsik, Monahan, and Barsam, "Looking at Movies" (*Writing About Movies*, ch. 2)
