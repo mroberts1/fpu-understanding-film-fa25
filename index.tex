@@ -1,0 +1,860 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod,
+  oneside]{scrartcl}
+\usepackage{xcolor}
+\usepackage[left=1in,marginparwidth=2.0666666666667in,textwidth=4.1333333333333in,marginparsep=0.3in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+% load packages
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{fontspec}
+\usepackage{titlesec}
+
+%% Set page size with a wider right margin
+\geometry{a4paper, total={170mm,257mm}, left=20mm, top=20mm, bottom=20mm, right=50mm}
+
+%% Let's define some colours
+\definecolor{light}{HTML}{E6E6FA}
+\definecolor{highlight}{HTML}{800080}
+\definecolor{dark}{HTML}{330033}
+
+%% Let's add the border on the right hand side 
+% \AddToShipoutPicture{% 
+%     \AtPageLowerLeft{% 
+%         \put(\LenToUnit{\dimexpr\paperwidth-3cm},0){% 
+%             \color{light}\rule{3cm}{\LenToUnit\paperheight}%
+%           }%
+%      }%
+%      % logo
+%     \AtPageLowerLeft{% start the bar at the bottom right of the page
+%         \put(\LenToUnit{\dimexpr\paperwidth-2.25cm},27.2cm){% move it to the top right
+%             \color{light}\includegraphics[width=1.5cm]{_extensions/nrennie/PrettyPDF/logo.png}
+%           }%
+%      }%
+% }
+
+%% Style the page number
+\fancypagestyle{mystyle}{
+  \fancyhf{}
+  \renewcommand\headrulewidth{0pt}
+  \fancyfoot[R]{\thepage}
+  \fancyfootoffset{3.5cm}
+}
+\setlength{\footskip}{20pt}
+
+%% style the chapter/section fonts
+\chapterfont{\color{dark}\fontsize{20}{16.8}\selectfont}
+\sectionfont{\color{dark}\fontsize{20}{16.8}\selectfont}
+\subsectionfont{\color{dark}\fontsize{14}{16.8}\selectfont}
+\titleformat{\subsection}
+  {\sffamily\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+  
+% left align title
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+  {\sffamily\huge\textbf{\MakeUppercase{\@title}}} \vspace{0.3cm} \newline
+  {\Large {\@subtitle}} \newline
+  \@author
+\end{flushleft}\egroup
+}
+\makeatother
+
+%% Use some custom fonts
+\setsansfont{Ubuntu}[
+    Path=_extensions/nrennie/PrettyPDF/Ubuntu/,
+    Scale=0.9,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    ]
+
+\setmainfont{Ubuntu}[
+    Path=_extensions/nrennie/PrettyPDF/Ubuntu/,
+    Scale=0.9,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    ]
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}{}
+\makeatother
+\makeatletter
+\@ifundefined{codebgcolor}{\definecolor{codebgcolor}{named}{light}}{}
+\makeatother
+\makeatletter
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, colback={codebgcolor}, boxrule=0pt, enhanced, frame hidden, breakable]}{\end{tcolorbox}}\fi
+\makeatother
+\makeatletter
+\@ifpackageloaded{sidenotes}{}{\usepackage{sidenotes}}
+\@ifpackageloaded{marginnote}{}{\usepackage{marginnote}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={COMM232 Understanding Film},
+  colorlinks=true,
+  linkcolor={highlight},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={highlight},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{COMM232 Understanding Film}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\pagestyle{mystyle}
+
+
+\pandocbounded{\includegraphics[keepaspectratio]{img/get-out.gif}}
+
+\marginnote{\begin{footnotesize}
+
+\href{https://www.franklinpierce.edu/index.html}{Franklin Pierce
+University}\\
+\href{https://www.franklinpierce.edu/academics/programs/communications.html}{Communication
+Program}\\
+Fall Semester 2025\\
+Class meetings: Tues/Thur 10:50-12:05\\
+Class location: Fitz 101\\
+Instructor: Dr.~Martin Roberts\\
+Office: Green Room, Fitz\\
+Office hours: Thursday 09:30-10:30 a.m.\\
+\href{https://franklinpierce.instructure.com/courses/21717}{Canvas}\\
+\href{https://www.youtube.com/playlist?list=PLKJL7wxYKW3MGY45hmpFupwjzusAAios6}{YouTube}\\
+\href{mailto:robertsm@franklinpierce.edu}{\faIcon{envelope}} \textbar{}
+\href{https://github.com/mroberts1/fpu-understanding-film-fa25}{\faIcon{github}}\\
+
+\end{footnotesize}}
+
+This course examines film as a cultural text, focusing on aspects such
+as genre, movement, and style, and elements such as scriptwriting, story
+structure, character development, cinematography, editing, and sound.
+Students will examine how each of these elements contributes to
+influencing the viewing experience. Films screened are primarily classic
+American films, but current Hollywood, experimental, or international
+films may also be included. Addresses GLE Learning Outcomes Arts and
+Design (AD), Oral Communication (OC), and Applied Learning (AL).
+Prerequisite: GLE110.
+
+\subsection{Reading Assignments}\label{reading-assignments}
+
+Ed Sikov,~\emph{Film Studies: An Introduction}. Second edition. New
+York: Columbia University Press, 2020. Please order this book either as
+a print copy or an ebook as soon as possible.
+
+Karen Gocsik, Dave Monahan, and Richard Barsam, \emph{Writing About
+Movies}. Fifth edition. New York: W.W. Norton and Company, Inc., 2019.
+
+Other readings will be available as PDFs via links in the syllabus.
+Please download all PDFs, print them out and mark them up when reading.
+
+\subsection{Assignments \& Evaluation}\label{assignments-evaluation}
+
+Homework exercises (based on Sikov, Film Studies) (4, biweekly): 50\%\\
+Midterm (take-home): 15\%\\
+Final (take-home): 15\%\\
+Engagement (including attendance): 20\%
+
+\subsection{Class Schedule}\label{class-schedule}
+
+\emph{Week 1}
+
+08/26 Introduction
+
+\marginnote{\begin{footnotesize}
+
+\url{https://vimeo.com/128097765}
+
+\end{footnotesize}}
+
+08/28~~\textbf{What Is (a) Film?}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{The Definition of Film}~(Richard Misek, 2015)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 2}
+
+09/02~\textbf{What Is Cinema?}
+
+\marginnote{\begin{footnotesize}
+
+\url{https://youtu.be/9oU*myNlk1A}
+
+\url{https://youtu.be/289zm-hlMWk}
+
+\url{https://youtu.be/Y4EFuZxEtNI}
+
+\end{footnotesize}}
+
+André Bazin, ``\href{pdf/bazin-ontology.pdf}{Ontology of the
+Photographic Image}''
+
+09/04~\textbf{The Cinematic}
+
+\begin{itemize}
+\item
+  \emph{Detectives} (Apple, 2022)
+\item
+  \emph{Whodunnit} (Apple, 2022)
+\item
+  \emph{Why Do A24 Films Look Like That?}
+\item
+  Matt Zoller Seitz and Chris
+  Wade,~``\href{https://www.vulture.com/2015/10/cinematic-tv-what-does-it-really-mean.html}{What
+  Does `Cinematic TV' Really Mean?}'' (\emph{Vulture}, 21 October 2015)
+\item
+  Gocsik, Monahan, and Barsam, ``The Challenges of Writing About
+  Movies'' (\emph{Writing About Movies}, ch.~1)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 3}
+
+09/09 ~\textbf{What is Film Analysis?}
+
+\begin{itemize}
+\tightlist
+\item
+  Norman N.
+  Holland,~\href{https://www.asharperfocus.com/Seeing-Movies-Now.html}{``Seeing
+  Movies Today---Alas}\\
+\item
+  Norman N.
+  Holland,~\href{https://www.asharperfocus.com/criticism.html}{``Criticism
+  vs.~Reviewing''}
+\end{itemize}
+
+09/11
+
+\begin{itemize}
+\item
+  Sikov, ``\href{pdf/sikov-mise-en-scene-1-2.pdf}{Mise-en-scène}''
+  (\emph{Film Studies}, chs.~1-2)
+\item
+  \href{https://kogonada.com/archive}{Kogonada video essays}
+\item
+  Gocsik, Monahan, and Barsam, ``Looking at Movies'' (\emph{Writing
+  About Movies}, ch.~2)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 4}
+
+09/16
+
+NO CLASS (Instructor Absent)
+
+\begin{itemize}
+\tightlist
+\item
+  Sikov, ``\href{pdf/sikov-montage.pdf}{Montage}'' (\emph{Film Studies},
+  ch.~4)
+\end{itemize}
+
+09/18~~\textbf{Kino-eye}
+
+\begin{itemize}
+\item
+  \href{pdf/kino-eye.pdf}{Kino-eye readings}~~(Krakauer, Michelson,
+  Vertov)
+\item
+  Watch:~\emph{The History of Cutting}, 15 mins.
+\item
+  \href{https://franklinpierce.on.worldcat.org/oclc/52408086}{\emph{Man
+  With A Movie Camera}}~(Dziga Vertov, 1929) {[}on DVD at the library{]}
+\item
+  Gocsik, Monahan, and Barsam, ``Formal Analysis'' (\emph{Writing About
+  Movies}, ch.~3)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 5}
+
+09/23
+
+\begin{itemize}
+\tightlist
+\item
+  Sikov,~\emph{Film Studies}, ch.~3 (``Cinematography'')
+\end{itemize}
+
+09/25~
+
+\textbf{Hollywood}
+
+\begin{itemize}
+\tightlist
+\item
+  Dixon and Foster, ``\href{pdf/dixon-foster-ch4.pdf}{The Hollywood
+  Studio System in the 1930s and 1940s}'' (\emph{A Short History of
+  Film}, chapter 4)
+\item
+  Farran Smith Nehme,
+  ``\href{https://www.criterion.com/current/posts/6331-george-cukor-s-way-with-women}{George
+  Cukor's Way With Women}'' (Criterion, 2 May 2019)
+\end{itemize}
+
+In-class: What~\emph{Price Hollywood?}~(George Cukor, 1932)
+{[}excerpt{]}
+
+\begin{itemize}
+\tightlist
+\item
+  Gocsik, Monahan, and Barsam, ``Cultural Analysis'' (\emph{Writing
+  About Movies}, ch.~4)
+\end{itemize}
+
+\textbf{DEADLINE: Homework 2: Opening Sequence}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 6}
+
+09/30~\textbf{Color}
+
+\begin{itemize}
+\item
+  Richard Misek, ``\href{pdf/Film-Color.pdf}{Film Color}''
+  (in~\emph{Chromatic Cinema: A History of Screen Color}~(Chichester:
+  Wiley-Blackwell, 2010), ch.~1)
+\item
+  Video
+  essay:~\href{https://www.criterionchannel.com/color-motifs-in-black-narcissus}{Color~\emph{Motifs
+  in 'Black Narcissus}}~(Kristin Thompson, 2018) {[}Criterion Channel -
+  requires subscription{]}
+\end{itemize}
+
+10/02 ~
+
+\begin{itemize}
+\item
+  Maria Helena Braga e Vaz da Costa,
+  ``\href{pdf/Color-in-Films.pdf}{Color in Films: A Critical Overview}''
+\item
+  \href{https://filmcolors.org/}{Timeline of Historical Film Colors}
+\item
+  Gocsik, Monahan, and Barsam, ``Generating Ideas'' (\emph{Writing About
+  Movies}, ch.~5)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 7}
+
+10/07 ~\textbf{Narrative}
+
+\begin{itemize}
+\tightlist
+\item
+  Sikov,~\emph{Film Studies}, ch.~6 (``Narrative: From Scene to Scene'')
+\end{itemize}
+
+10/09~
+
+\begin{itemize}
+\item
+  Sikov, ch.~7 (``From Screenplay to Film'')
+\item
+  ``\href{https://en.wikipedia.org/wiki/Fabula*and*syuzhet}{Fabula and
+  Syuzhet}'' (\emph{Wikipedia})
+\item
+  Gocsik, Monahan, and Barsam, ``Researching Movies'' (\emph{Writing
+  About Movies}, ch.~6)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 8}
+
+10/14 NO CLASS (Fall Break)
+
+10/16~\textbf{Midterm Quiz}
+
+\href{https://franklinpierce.instructure.com/courses/19450/pages/midterm-quiz-study-guide}{Study
+Guide}
+
+\href{https://franklinpierce.instructure.com/courses/19450/pages/midterm-quiz-fall-2023}{Example:
+last year's quiz}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 9}
+
+10/21 \textbf{Auteurism and the New Wave}
+
+\begin{itemize}
+\tightlist
+\item
+  Sikov,~\emph{Film Studies}, ch.~8 (``Filmmakers'')
+\item
+  Alexandre Astruc,
+  ``\href{http://www.newwavefilm.com/about/camera-stylo-astruc.shtml}{The
+  Birth of a New Avant-Garde: La Caméra-Stylo}''
+\end{itemize}
+
+François Truffaut,
+``\href{http://www.newwavefilm.com/about/a-certain-tendency-of-french-cinema-truffaut.shtml}{A
+Certain Tendency of French Cinema}''
+
+10/23~
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://cinemawavesblog.com/movements/french-new-wave/}{French
+  New Wave}~(CinemaWaves website)
+\item
+  Samuel
+  Harries,~\href{https://www.movementsinfilm.com/french-new-wave}{Movements
+  in Film: French New Wave}
+\item
+  \href{http://www.newwavefilm.com/new-wave-cinema-guide/nouvelle-vague-where-to-start.shtml}{French
+  New Wave: Where to Start}
+\end{itemize}
+
+Recommended films:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{The 400 Blows}~(François Truffaut, 1959)\\
+\item
+  \emph{Breathless}~(Jean-Luc Godard, 1960)\\
+\item
+  \emph{Cleo from 5 to 7}~(Agnes Varda, 1961)
+\end{itemize}
+
+Gocsik, Monahan, and Barsam, ``Developing Your Thesis'' (\emph{Writing
+About Movies}, ch.~7)
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 10}
+
+10/28~\textbf{Soundtracks}
+
+\begin{itemize}
+\tightlist
+\item
+  Sikov, ``Sound'' (Film Studies, ch.~5)
+\end{itemize}
+
+10/30~
+
+\href{https://markkorven.com/}{Mark Korven}~YouTube videos\\
+\href{https://vimeo.com/user3424223}{Mark Korven Vimeo}
+
+Watch:~\emph{The Witch}~(Robert Eggers, 2015)
+
+\textbf{DEADLINE: Homework 3: Editing}
+
+\begin{itemize}
+\tightlist
+\item
+  Gocsik, Monahan, and Barsam, ``Attending to Style'' (\emph{Writing
+  About Movies}, ch.~8)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 11}
+
+11/04~
+
+11/06~\textbf{Art}
+
+\begin{itemize}
+\item
+  David Bordwell, ``\href{pdf/bordwell-art-cinema.pdf}{The Art Cinema as
+  a Mode of Film Practice}
+\item
+  Gocsik, Monahan, and Barsam, ``Considering Structure and
+  Organization'' (\emph{Writing About Movies}, ch.~9)
+\end{itemize}
+
+In-class:~\emph{La Notte}~(Michelangelo Antonioni, 1962) (excerpt)
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 12}
+
+11/11~~\textbf{Genre}
+
+\begin{itemize}
+\tightlist
+\item
+  Sikov,~\emph{Film Studies}, ch.~10 (``Genre'')
+\item
+  Rick Altman, ``\href{pdf/altman-genre.pdf\%22}{A Semantic/Syntactic
+  Approach to Film Genre}
+\end{itemize}
+
+11/13~
+
+\begin{itemize}
+\item
+  Ginette Vincendeau,
+  ``\href{https://www2.bfi.org.uk/news-opinion/sight-sound-magazine/features/deep-focus/french-film-noir}{How
+  The French Birthed Film Noir}''
+\item
+  Gocsik, Monahan, and Barsam, ``Revising Your Work (\emph{Writing About
+  Movies}), ch.~10)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 13}
+
+11/18 ~~\textbf{Digital Cinema}
+
+Sikov,~\emph{Film Studies}, ch.~13 (``Film Studies in the Era of Digital
+Cinema'')
+
+11/20 ~
+
+\begin{itemize}
+\tightlist
+\item
+  Graham Edwards,
+  ``\href{https://franklinpierce.instructure.com/courses/19450/files/2982722?wrap=1}{Explosive
+  Cocktail}~\href{https://franklinpierce.instructure.com/courses/19450/files/2982722/download?download*frd=1}{Download
+  Explosive Cocktail}'' (\emph{Cinefex}~145 (February 2016): 12-39 ~-
+  Prince,~\emph{Digital Cinema}~(selected chs.)
+\end{itemize}
+
+\textbf{DEADLINE: Homework 4: Genre}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 14}
+
+11/25
+
+11/27 NO CLASS (Thanksgiving)
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\emph{Week 15}
+
+12/02~
+
+12/04~Conclusion
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+12/05 Classes End
+
+12/06-07 Reading Days
+
+12/08-11 Final Exam Period
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Policies \& Procedures}\label{policies-procedures}
+
+\subsubsection{How to do well in this
+class}\label{how-to-do-well-in-this-class}
+
+Attend all scheduled classes.
+
+Be on time. Don't leave early.
+
+Complete all reading assignments \textbf{before} the scheduled class.
+
+Watch all assigned films.
+
+Take notes. The Cornell note-taking system is recommended. If you don't
+take notes during class, you will forget 90\% of what was discussed
+there.~
+
+Use a free note-taking app
+like~\href{https://obsidian.md/}{Obsidian}~and learn how to write in
+Markdown format.~
+
+Ask questions. These should be academic (i.e.~related to course topics
+and materials) rather than administrative (due dates, rubrics etc.).
+
+Administrative questions should be asked outside class, either in person
+after class or via Canvas Inbox.
+
+\subsubsection{Attendance}\label{attendance}
+
+Attendance of all scheduled classes is mandatory. Attendance is taken at
+the beginning of class; if you arrive late, you may miss rolecall, in
+which case remember to ask to be recorded as Late after class.
+
+\subsubsection{Punctuality}\label{punctuality}
+
+Class begins at 10:50 a.m. and ends at 12:05 p.m. Be sure to arrive in
+time for the beginning of class. Class does not end until students are
+dismissed: please do not leave early. Arrival after 11 a.m. will be
+recorded as Late (L), and three Late count as one Absence. If you need
+to leave early, please notify me of this before class as a courtesy.
+
+\subsubsection{Absences}\label{absences}
+
+You are permitted up to two (2) Excused absences, and a maximum of four
+(4) absences for any reason.
+
+If you reach 4 absences, you are required to arrange a meeting with me
+to discuss your status in the course.
+
+\subsubsection{Excused/Unexcused
+Absence}\label{excusedunexcused-absence}
+
+Absences are recorded as Excused (E) in case of health, emergency,
+bereavement, professional development (e.g.~job interview), or
+participation in a University sports team. For more than two (2)
+absences in case of health issues, a doctor's note is required. All
+other absences are recorded as Unexcused (U).
+
+\subsubsection{Sports Teams}\label{sports-teams}
+
+If you are unable to attend a class due to attending sports events, you
+are required to email me a list of dates when you expect to be absent.
+After the missed class, you are required to schedule a meeting with me
+during my office hour (Thursday 9:30-10:30) to discuss what was missed
+during your absence.
+
+\subsubsection{Communication}\label{communication}
+
+Please use Canvas Inbox for all course-related questions. Other
+questions can be sent via email
+(\href{mailto:robertsm@franklinpierce.edu}{\nolinkurl{robertsm@franklinpierce.edu}}).~I
+try to reply to direct messages within 24 hours (except on weekends),
+and will expect you to do the same.
+
+\subsubsection{Notifications}\label{notifications}
+
+It is strongly recommended to disable notifications on Canvas.~
+
+\subsection{Classroom Protocol}\label{classroom-protocol}
+
+\subsubsection{Food and Drink}\label{food-and-drink}
+
+You may bring a drink to class, but please do not eat when class is in
+progress.
+
+\subsubsection{Sleeping in class}\label{sleeping-in-class}
+
+You are expected to remain alert and attentive at all times during
+class. If you fall asleep during class, you will receive an informal
+verbal warning. If the problem recurs, you will receive a second written
+warning. If the problem continues after this, it will significantly
+affect your Engagement grade for the course (20\%).~
+
+\subsubsection{Cellphones}\label{cellphones}
+
+The use of cellphones during class is strictly forbidden.
+
+\subsubsection{Headphones}\label{headphones}
+
+The use of headphones or earbuds during class is strictly forbidden~
+
+\subsubsection{Laptop Privileges}\label{laptop-privileges}
+
+The use of laptops or tablets (e.g.~iPads) is permitted during class for
+taking notes ONLY. Any other use is unauthorized, and if detected will
+result in the withdrawal of your laptop privileges for the remainder of
+the semester. This means that you will be required to take notes by hand
+with pen and paper from that point on.
+
+\subsubsection{Timeouts}\label{timeouts}
+
+Since this is a short class (1.25 hrs), you are expected to remain
+present in class throughout except in case of emergency. Please do not
+keep walking in and out of class. This applies particularly when
+screenings are in progress.
+
+\subsubsection{Hoods}\label{hoods}
+
+Hoods must be worn~\textbf{down}~at all times. This is so that I can see
+at all times that you are not using headphones (see above). Room
+temperature does not require wearing of hats or other headgear.
+
+\subsubsection{Warnings and Engagement
+Grade}\label{warnings-and-engagement-grade}
+
+Non-compliance with the above policies will result in an initial verbal
+warning.
+
+If the non-compliance continues, I will request a meeting with you to
+discuss the issue, and it will impact your Engagement grade (20\%).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+
+
+
+\end{document}
