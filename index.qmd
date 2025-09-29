@@ -2,11 +2,11 @@
 title: 'COMM232 Understanding Film'
 ---
 
-[![](img/get-out.gif)](https://www.monkeypawproductions.com/about)
+<!-- [![](img/get-out.gif)](https://www.monkeypawproductions.com/about) -->
 
 ::: {.column-margin}
 
-[Franklin Pierce University](https://www.franklinpierce.edu/index.html)  
+<br><br><br><br>[Franklin Pierce University](https://www.franklinpierce.edu/index.html)  
 [Communication Program](https://www.franklinpierce.edu/academics/programs/communications.html)  
 Fall Semester 2025  
 Class meetings: Tues/Thur 10:50-12:05  
@@ -20,7 +20,7 @@ Office hours: Thursday 09:30-10:30 a.m.
 
 :::
 
-This course examines film as a cultural text, focusing on aspects such as genre, movement, and style, and elements such as scriptwriting, story structure, character development, cinematography, editing, and sound. Students will examine how each of these elements contributes to influencing the viewing experience. Films screened are primarily classic American films, but current Hollywood, experimental, or international films may also be included. Addresses GLE Learning Outcomes Arts and Design (AD), Oral Communication (OC), and Applied Learning (AL). Prerequisite: GLE110.<br><br>
+<br><br>This course examines film as a cultural text, focusing on aspects such as genre, movement, and style, and elements such as scriptwriting, story structure, character development, cinematography, editing, and sound. Students will examine how each of these elements contributes to influencing the viewing experience. Films screened are primarily classic American films, but current Hollywood, experimental, or international films may also be included. Addresses GLE Learning Outcomes Arts and Design (AD), Oral Communication (OC), and Applied Learning (AL). Prerequisite: GLE110.<br><br>
 
 ## Reading Assignments
 
