@@ -1,290 +1,250 @@
----
-title: 'COMM232 Understanding Film'
----
+### Overview
 
-<!-- [![](img/get-out.gif)](https://www.monkeypawproductions.com/about) -->
+This course examines film as a cultural text, focusing on aspects such as genre, movement, and style, and elements such as scriptwriting, story structure, character development, cinematography, editing, and sound. Students will examine how each of these elements contributes to influencing the viewing experience. Films screened are primarily classic American films, but current Hollywood, experimental, or international films may also be included. Addresses GLE Learning Outcomes Arts and Design (AD), Oral Communication (OC), and Applied Learning (AL). Prerequisite: GLE110.
 
-::: {.column-margin}
+### Reading Assignments
 
-<br><br><br><br>[Franklin Pierce University](https://www.franklinpierce.edu/index.html)  
-[Communication Program](https://www.franklinpierce.edu/academics/programs/communications.html)  
-Fall Semester 2025  
-Class meetings: Tues/Thur 10:50-12:05  
-Class location: Fitz 101  
-Instructor: Dr. Martin Roberts  
-Office: Green Room, Fitz  
-Office hours: Thursday 09:30-10:30 a.m.  
-[Canvas](https://franklinpierce.instructure.com/courses/21717)  
-[YouTube](https://www.youtube.com/playlist?list=PLKJL7wxYKW3MGY45hmpFupwjzusAAios6)  
-[{{< fa regular envelope >}}](mailto:robertsm@franklinpierce.edu) \| [{{< fa brands github >}}](https://github.com/mroberts1/fpu-understanding-film-fa25) \
+Ed Sikov, _Film Studies: An Introduction_. Second edition. New York: Columbia University Press, 2020. Please order this book either as a print copy or an ebook as soon as possible.
 
-:::
-
-<br><br>This course examines film as a cultural text, focusing on aspects such as genre, movement, and style, and elements such as scriptwriting, story structure, character development, cinematography, editing, and sound. Students will examine how each of these elements contributes to influencing the viewing experience. Films screened are primarily classic American films, but current Hollywood, experimental, or international films may also be included. Addresses GLE Learning Outcomes Arts and Design (AD), Oral Communication (OC), and Applied Learning (AL). Prerequisite: GLE110.<br><br>
-
-## Reading Assignments
-
-Ed Sikov, *Film Studies: An Introduction*. Second edition. New York: Columbia University Press, 2020. Please order this book either as a print copy or an ebook as soon as possible.
-
-Karen Gocsik, Dave Monahan, and Richard Barsam, *Writing About Movies*. Fifth edition. New York: W.W. Norton and Company, Inc., 2019.
+Karen Gocsik, Dave Monahan, and Richard Barsam,  _Writing About Movies_. Fifth edition. New York: W.W. Norton and Company, Inc., 2019.
 
 Other readings will be available as PDFs via links in the syllabus. Please download all PDFs, print them out and mark them up when reading.
 
 ## Assignments & Evaluation
 
-Homework exercises (based on Sikov, Film Studies) (4, biweekly): 50%  
+Homework exercises (based on Sikov, _Film Studies_) (4, biweekly): 50%  
 Midterm (take-home): 15%  
 Final (take-home): 15%  
-Engagement (including attendance): 20%  
+Engagement (including attendance): 20%
 
 ## Class Schedule
 
-*Week 1*
+_Week 1_
 
 08/26 Introduction
 
-::: {.column-margin}
+08/28 **What Is (a) Film?**
 
-{{< video https://vimeo.com/128097765 >}}
+-   [_The Definition of Film_](https://vimeo.com/128097765) (Richard Misek, 2015)
 
-:::
+----------
 
-08/28  **What Is (a) Film?**
+_Week 2_
 
-- *The Definition of Film* (Richard Misek, 2015)
-
----
-
-*Week 2*
-
-09/02 **What Is Cinema?**
-
-::: {.column-margin}
-
-{{< video https://youtu.be/9oU*myNlk1A >}}<br>
-
-{{< video https://youtu.be/289zm-hlMWk >}}<br>
-
-{{< video https://youtu.be/Y4EFuZxEtNI >}}
-
-:::
+09/02  **What Is Cinema?**
 
 André Bazin, "[Ontology of the Photographic Image](pdf/bazin-ontology.pdf)"
 
-09/04 **The Cinematic**
+09/04  **The Cinematic**
 
-- *Detectives* (Apple, 2022)
-- *Whodunnit* (Apple, 2022)
-- *Why Do A24 Films Look Like That?*
-- Matt Zoller Seitz and Chris Wade, “[What Does ‘Cinematic TV’ Really Mean?](https://www.vulture.com/2015/10/cinematic-tv-what-does-it-really-mean.html)” (*Vulture*, 21 October 2015)
+-   [Detectives](https://youtu.be/lOz9j3CuNCw)  (Apple, 2022)
+-   [_Whodunnit_](https://youtu.be/289zm-hlMWk)  (Apple, 2022)
+-   [_Why Do A24 Films Look Like That?_](https://youtu.be/Y4EFuZxEtNI)
+-   Matt Zoller Seitz and Chris Wade, “[What Does ‘Cinematic TV’ Really Mean?](https://www.vulture.com/2015/10/cinematic-tv-what-does-it-really-mean.html)” (Vulture, 21 October 2015)
 
-- Gocsik, Monahan, and Barsam, "The Challenges of Writing About Movies" (*Writing About Movies*, ch. 1)
+-   Gocsik, Monahan, and Barsam, “The Challenges of Writing About Movies” (_Writing About Movies_, ch. 1)
 
----
+----------
 
-*Week 3*
+_Week 3_
 
-09/09  **What is Film Analysis?**
+09/09 **What is Film Analysis?**
 
-- Norman N. Holland, [“Seeing Movies Today—Alas](https://www.asharperfocus.com/Seeing-Movies-Now.html)  
-- Norman N. Holland, [“Criticism vs. Reviewing”](https://www.asharperfocus.com/criticism.html)
+-   Norman N. Holland, [“Seeing Movies Today—Alas](https://www.asharperfocus.com/Seeing-Movies-Now.html)
+-   Norman N. Holland, [“Criticism vs. Reviewing”](https://www.asharperfocus.com/criticism.html)
 
 09/11
 
-- Sikov, “[Mise-en-scène](pdf/sikov-mise-en-scene-1-2.pdf)" (*Film Studies*, chs. 1-2)
-- [Kogonada video essays](https://kogonada.com/archive)
+-   Sikov, “[Mise-en-scène](pdf/sikov-mise-en-scene-1-2.pdf)" (*Film Studies*, chs. 1-2
+    
+-   Gocsik, Monahan, and Barsam, “Looking at Movies” (_Writing About Movies_, ch. 2)
+    
 
-- Gocsik, Monahan, and Barsam, "Looking at Movies" (*Writing About Movies*, ch. 2)
+----------
 
----
+_Week 4_
 
-*Week 4*
-
-09/16 
+09/16
 
 NO CLASS (Instructor Absent)
 
-- Sikov, "[Montage](pdf/sikov-montage.pdf)" (*Film Studies*, ch. 4)
+09/18
 
-09/18  **Kino-eye**
+-   [Kogonada video essays](https://kogonada.com/archive)
 
-- [Kino-eye readings](pdf/kino-eye.pdf)  (Krakauer, Michelson, Vertov)
+**DEADLINE: Homework: Mise-en-scène analysis**
 
-- Watch: *The History of Cutting*, 15 mins.
-- [*Man With A Movie Camera*](https://franklinpierce.on.worldcat.org/oclc/52408086) (Dziga Vertov, 1929) [on DVD at the library]
+----------
 
-- Gocsik, Monahan, and Barsam, "Formal Analysis" (*Writing About Movies*, ch. 3)
+_Week 5_
 
----
+09/23  **Editing**
 
-*Week 5*
+-   Sikov, “[Montage](pdf/sikov-montage.pdf))" (*Film Studies*, ch. 4)
 
-09/23 
+09/25 **Kino-eye**
 
-- Sikov, *Film Studies*, ch. 3 (“Cinematography”)
+-   [Kino-eye readings](pdf/kino-eye.pdf)
+    
+-   Watch: _The History of Cutting_, 15 mins.
+    
+-   [_Man With A Movie Camera_](https://franklinpierce.on.worldcat.org/oclc/52408086) (Dziga Vertov, 1929) [on DVD at the library]
+    
+-   Gocsik, Monahan, and Barsam, “Formal Analysis” (_Writing About Movies_, ch. 3
+    
 
-09/25 
+-   Gocsik, Monahan, and Barsam, “Cultural Analysis” (_Writing About Movies_, ch. 4)
 
-**Hollywood**
+----------
 
-- Dixon and Foster, “[The Hollywood Studio System in the 1930s and 1940s](pdf/dixon-foster-ch4.pdf)” (*A Short History of Film*, chapter 4)
-- Farran Smith Nehme, “[George Cukor’s Way With Women](https://www.criterion.com/current/posts/6331-george-cukor-s-way-with-women)” (Criterion, 2 May 2019)
+_Week 6_
 
-In-class: What *Price Hollywood?* (George Cukor, 1932) [excerpt]
+09/30  **Cinematography**
 
-- Gocsik, Monahan, and Barsam, "Cultural Analysis" (*Writing About Movies*, ch. 4)
+-   Sikov, _Film Studies_, ch. 3 (“Cinematography”)
+-   Daisuke Miyao, “[Cats Love Dark Places: Lighting in](pdf/daisuke-miyao-cinema-cat-people.pdf")
 
-**DEADLINE: Homework 2: Opening Sequence**
+10/02
 
----
+-   Gocsik, Monahan, and Barsam, “Generating Ideas” (_Writing About Movies_, ch. 5)
+    
 
-*Week 6*
+----------
 
-09/30 **Color**
+_Week 7_
 
-- Richard Misek, "[Film Color](pdf/Film-Color.pdf)" (in *Chromatic Cinema: A History of Screen Color* (Chichester: Wiley-Blackwell, 2010), ch. 1)
+10/07 **Hollywood**
 
-- Video essay: [Color *Motifs in ‘Black Narcissus*](https://www.criterionchannel.com/color-motifs-in-black-narcissus) (Kristin Thompson, 2018) [Criterion Channel - requires subscription]
+-   Dixon and Foster, “[The Hollywood Studio System in the 1930s and 1940s](pdf/dixon-foster-ch4.pdf)" (*A Short History of Film*, chapter 4)
+-   Farran Smith Nehme, “[George Cukor’s Way With Women](https://www.criterion.com/current/posts/6331-george-cukor-s-way-with-women)” (Criterion, 2 May 2019)
 
-10/02  
+In-class: What _Price Hollywood?_ (George Cukor, 1932) [excerpt]
 
-- Maria Helena Braga e Vaz da Costa, "[Color in Films: A Critical Overview](pdf/Color-in-Films.pdf)"
-- [Timeline of Historical Film Colors](https://filmcolors.org/)
+10/09
 
-- Gocsik, Monahan, and Barsam, "Generating Ideas" (*Writing About Movies*, ch. 5)
+Quiz: Hollywood
 
----
+-   Gocsik, Monahan, and Barsam, “Researching Movies” (_Writing About Movies_, ch. 6)
+    
 
-*Week 7*
+----------
 
-10/07  **Narrative**
-
-- Sikov, *Film Studies*, ch. 6 (“Narrative: From Scene to Scene”)
-
-10/09 
-
-- Sikov, ch. 7 ("From Screenplay to Film")
-- "[Fabula and Syuzhet](https://en.wikipedia.org/wiki/Fabula*and*syuzhet)" (*Wikipedia*)
-
-- Gocsik, Monahan, and Barsam, "Researching Movies" (*Writing About Movies*, ch. 6)
-
----
-
-*Week 8*
+_Week 8_
 
 10/14 NO CLASS (Fall Break)
 
-10/16 **Midterm Quiz**
+10/16
 
-[Study Guide](https://franklinpierce.instructure.com/courses/19450/pages/midterm-quiz-study-guide "Midterm Quiz: Study Guide")
+**Narrative**
 
-[Example: last year's quiz](https://franklinpierce.instructure.com/courses/19450/pages/midterm-quiz-fall-2023 "Midterm Quiz - Fall 2023")
+-   Sikov,  _Film Studies_, ch. 6 (“Narrative: From Scene to Scene”)
+-   “[Fabula and Syuzhet](https://en.wikipedia.org/wiki/Fabula*and*syuzhet)” (_Wikipedia_)
 
----
+----------
 
-*Week 9*
+_Week 9_
 
-10/21 **Auteurism and the New Wave**
+10/21  **Genre**
 
-- Sikov, *Film Studies*, ch. 8 (“Filmmakers”)
-- Alexandre Astruc, “[The Birth of a New Avant-Garde: La Caméra-Stylo](http://www.newwavefilm.com/about/camera-stylo-astruc.shtml)”
+-   Sikov, _Film Studies_, ch. 10 (“Genre”)
+-   Rick Altman, “[A Semantic/Syntactic Approach to Film Genre](pdf/altman-semantic-syntactic.pdf)"
 
-François Truffaut, “[A Certain Tendency of French Cinema](http://www.newwavefilm.com/about/a-certain-tendency-of-french-cinema-truffaut.shtml)”
+**DEADLINE: Midterm: Hollywood Film Analysis**
 
-10/23 
+10/23
 
-- [French New Wave](https://cinemawavesblog.com/movements/french-new-wave/) (CinemaWaves website)
-- Samuel Harries, [Movements in Film: French New Wave](https://www.movementsinfilm.com/french-new-wave)
-- [French New Wave: Where to Start](http://www.newwavefilm.com/new-wave-cinema-guide/nouvelle-vague-where-to-start.shtml)
+-   Ginette Vincendeau, “[How The French Birthed Film Noir](https://www2.bfi.org.uk/news-opinion/sight-sound-magazine/features/deep-focus/french-film-noir)”
+
+Gocsik, Monahan, and Barsam, “Developing Your Thesis” (_Writing About Movies_, ch. 7)
+
+----------
+
+_Week 10_
+
+10/28 **Soundtracks**
+
+-   Sikov, “Sound” (Film Studies, ch. 5)
+
+10/30
+
+[Mark Korven](https://markkorven.com/) YouTube videos  
+[Mark Korven Vimeo](https://vimeo.com/user3424223)
+
+Watch: _The Witch_ (Robert Eggers, 2015)
+
+-   Gocsik, Monahan, and Barsam, “Attending to Style” (_Writing About Movies_, ch. 8)
+
+----------
+
+_Week 11_
+
+11/04 **Color**
+
+-   Richard Misek, “[Film Color](pdf/misek-film-color.pdf)” (in _Chromatic Cinema: A History of Screen Color_ (Chichester: Wiley-Blackwell, 2010), ch. 1)
+    
+-   Maria Helena Braga e Vaz da Costa, “[Color in Films: A Critical Overview](pdf/color-in-films.pdf)"
+    
+In-class:  [Color _Motifs in *Black Narcissus*](https://www.criterionchannel.com/color-motifs-in-black-narcissus)  (Kristin Thompson, 2018)
+
+11/06
+
+**DEADLINE: Homework: Genre Analysis**
+
+----------
+
+_Week 12_
+
+11/11  **Auteurism and the New Wave**
+
+-   Sikov, _Film Studies_, ch. 8 (“Filmmakers”)
+-   Alexandre Astruc, “[The Birth of a New Avant-Garde: La Caméra-Stylo](http://www.newwavefilm.com/about/camera-stylo-astruc.shtml)”
+- François Truffaut, “[A Certain Tendency of French Cinema](http://www.newwavefilm.com/about/a-certain-tendency-of-french-cinema-truffaut.shtml)”
+
+11/13
+
+-   [French New Wave](https://cinemawavesblog.com/movements/french-new-wave/) (CinemaWaves website)
+-   Samuel Harries, [Movements in Film: French New Wave](https://www.movementsinfilm.com/french-new-wave)
+-   [French New Wave: Where to Start](http://www.newwavefilm.com/new-wave-cinema-guide/nouvelle-vague-where-to-start.shtml)
 
 Recommended films:
 
-- *The 400 Blows* (François Truffaut, 1959)  
-- *Breathless* (Jean-Luc Godard, 1960)  
-- *Cleo from 5 to 7* (Agnes Varda, 1961)
+-   _The 400 Blows_ (François Truffaut, 1959)
+-   _Breathless_ (Jean-Luc Godard, 1960)
+-   _Cleo from 5 to 7_ (Agnes Varda, 1961)
+-   Gocsik, Monahan, and Barsam, “Revising Your Work (_Writing About Movies_), ch. 10)
+    
 
-Gocsik, Monahan, and Barsam, "Developing Your Thesis" (*Writing About Movies*, ch. 7)
+----------
 
----
+_Week 13_
 
-*Week 10*
+11/18 **Digital Cinema**
 
-10/28 **Soundtracks**
+Sikov, _Film Studies_, ch. 13 (“Film Studies in the Era of Digital Cinema”)
 
-- Sikov, "Sound" (Film Studies, ch. 5)
+11/20
 
-10/30 
+-   Graham Edwards, “[Explosive Cocktail](https://franklinpierce.instructure.com/courses/19450/files/2982722?wrap=1 "explosive-cocktail.pdf")” (_Cinefex_ 145 (February 2016): 12-39 - Prince, _Digital Cinema_ (selected chs.)
 
-[Mark Korven](https://markkorven.com/) YouTube videos  
-[Mark Korven Vimeo](https://vimeo.com/user3424223)
+**DEADLINE: Homework: Auteur Analysis**
 
-Watch: *The Witch* (Robert Eggers, 2015)
+----------
 
-**DEADLINE: Homework 3: Editing**
-
-- Gocsik, Monahan, and Barsam, "Attending to Style" (*Writing About Movies*, ch. 8)
-
----
-
-*Week 11*
-
-11/04 
-
-11/06 **Art**
-
-- David Bordwell, "[The Art Cinema as a Mode of Film Practice](pdf/bordwell-art-cinema.pdf)
-
-- Gocsik, Monahan, and Barsam, "Considering Structure and Organization" (*Writing About Movies*, ch. 9)
-
-In-class: *La Notte* (Michelangelo Antonioni, 1962) (excerpt)
-
----
-
-*Week 12*
-
-11/11  **Genre**
-
-- Sikov, *Film Studies*, ch. 10 (“Genre”)
-- Rick Altman, "[A Semantic/Syntactic Approach to Film Genre](pdf/altman-semantic-syntactic.pdf")
-
-11/13 
-
-- Ginette Vincendeau, “[How The French Birthed Film Noir](https://www2.bfi.org.uk/news-opinion/sight-sound-magazine/features/deep-focus/french-film-noir)”
-
-- Gocsik, Monahan, and Barsam, "Revising Your Work (*Writing About Movies*), ch. 10)
-
----
-
-*Week 13*
-
-11/18   **Digital Cinema**
-
-Sikov, *Film Studies*, ch. 13 (“Film Studies in the Era of Digital Cinema”)
-
-11/20  
-
-- Graham Edwards, "[Explosive Cocktail](https://franklinpierce.instructure.com/courses/19450/files/2982722?wrap=1 "explosive-cocktail.pdf") [Download Explosive Cocktail](https://franklinpierce.instructure.com/courses/19450/files/2982722/download?download*frd=1)" (*Cinefex* 145 (February 2016): 12-39
- - Prince, *Digital Cinema* (selected chs.)
-
-**DEADLINE: Homework 4: Genre**
-
----
-
-*Week 14*
+_Week 14_
 
 11/25
 
 11/27 NO CLASS (Thanksgiving)
 
----
+----------
 
-*Week 15*
+_Week 15_
 
-12/02 
+12/02
 
-12/04 Conclusion
+12/04 Conclusion
 
----
+----------
 
 12/05 Classes End
 
@@ -292,23 +252,24 @@ Sikov, *Film Studies*, ch. 13 (“Film Studies in the Era of Digital Cinema”)
 
 12/08-11 Final Exam Period
 
----
+**DEADLINE: Final Exam (take-home)**
+
+----------
 
 ## Policies & Procedures
 
 ### How to do well in this class
-
 Attend all scheduled classes.
 
-Be on time. Don't leave early.
+Be on time. Don’t leave early.
 
-Complete all reading assignments **before** the scheduled class.
+Complete all reading assignments  **before**  the scheduled class.
 
 Watch all assigned films.
 
-Take notes. The Cornell note-taking system is recommended. If you don't take notes during class, you will forget 90% of what was discussed there. 
+Take notes. The Cornell note-taking system is recommended. If you don’t take notes during class, you will forget 90% of what was discussed there.
 
-Use a free note-taking app like [Obsidian](https://obsidian.md/) and learn how to write in Markdown format. 
+Use a free note-taking app like [Obsidian](https://obsidian.md/) and learn how to write in Markdown format.
 
 Ask questions. These should be academic (i.e. related to course topics and materials) rather than administrative (due dates, rubrics etc.).
 
@@ -330,7 +291,7 @@ If you reach 4 absences, you are required to arrange a meeting with me to discus
 
 ### Excused/Unexcused Absence
 
-Absences are recorded as Excused (E) in case of health, emergency, bereavement, professional development (e.g. job interview), or participation in a University sports team. For more than two (2) absences in case of health issues, a doctor's note is required. All other absences are recorded as Unexcused (U).
+Absences are recorded as Excused (E) in case of health, emergency, bereavement, professional development (e.g. job interview), or participation in a University sports team. For more than two (2) absences in case of health issues, a doctor’s note is required. All other absences are recorded as Unexcused (U).
 
 ### Sports Teams
 
@@ -338,11 +299,11 @@ If you are unable to attend a class due to attending sports events, you are requ
 
 ### Communication
 
-Please use Canvas Inbox for all course-related questions. Other questions can be sent via email ([robertsm@franklinpierce.edu](mailto:robertsm@franklinpierce.edu)). I try to reply to direct messages within 24 hours (except on weekends), and will expect you to do the same.
+Please use Canvas Inbox for all course-related questions. Other questions can be sent via email ([robertsm@franklinpierce.edu](mailto:robertsm@franklinpierce.edu)). I try to reply to direct messages within 24 hours (except on weekends), and will expect you to do the same.
 
 ### Notifications
 
-It is strongly recommended to disable notifications on Canvas. 
+It is strongly recommended to disable notifications on Canvas.
 
 ## Classroom Protocol
 
@@ -352,7 +313,7 @@ You may bring a drink to class, but please do not eat when class is in progress.
 
 ### Sleeping in class
 
-You are expected to remain alert and attentive at all times during class. If you fall asleep during class, you will receive an informal verbal warning. If the problem recurs, you will receive a second written warning. If the problem continues after this, it will significantly affect your Engagement grade for the course (20%). 
+You are expected to remain alert and attentive at all times during class. If you fall asleep during class, you will receive an informal verbal warning. If the problem recurs, you will receive a second written warning. If the problem continues after this, it will significantly affect your Engagement grade for the course (20%).
 
 ### Cellphones
 
@@ -360,7 +321,7 @@ The use of cellphones during class is strictly forbidden.
 
 ### Headphones
 
-The use of headphones or earbuds during class is strictly forbidden 
+The use of headphones or earbuds during class is strictly forbidden
 
 ### Laptop Privileges
 
@@ -372,12 +333,10 @@ Since this is a short class (1.25 hrs), you are expected to remain present in cl
 
 ### Hoods
 
-Hoods must be worn **down** at all times. This is so that I can see at all times that you are not using headphones (see above). Room temperature does not require wearing of hats or other headgear.
+Hoods must be worn **down** at all times. This is so that I can see at all times that you are not using headphones (see above). Room temperature does not require wearing of hats or other headgear.
 
 ### Warnings and Engagement Grade
 
 Non-compliance with the above policies will result in an initial verbal warning.
 
 If the non-compliance continues, I will request a meeting with you to discuss the issue, and it will impact your Engagement grade (20%).
-
----
