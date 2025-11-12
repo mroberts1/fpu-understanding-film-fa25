@@ -6,14 +6,18 @@ project:
   
 website:
   title: "    "
+  bread-crumbs: false
   site-url: https://mroberts1.github.io/fpu-understanding-film-fa25/
   # twitter-card:
   #   creator: "@mroberts_vma"
   #   card-style: summary_large_image
   # favicon: "/img/cropped-cropped-flourish-1-270x270.gif"
+  sidebar:
+    search: false
+    style: "floating"
   navbar:
     background: "#960000"
-  #   search: true
+    search: false
   #   right:
   #     - icon: envelope
   #       aria-label: envelope
@@ -32,26 +36,25 @@ website:
   #       href: https://twitter.com/mroberts_VMA
 format:
   html:
-    toc: true
+    toc: false
     toc-depth: 3
-    toc-location: left
+    toc-location: right
     toc-title: '   '
     theme:
       light: ember.scss
-      dark: [ember.scss, slate]
-    css: custom.scss
-    self-contained: false
-    page-layout: article
-    # grid:
-    #     sidebar-width: 350px
-    #     body-width: 700px
-    #     margin-width: 350px
-    #     gutter-width: 2em
-    linestretch: 1.5
+      dark: [slate, ember.scss]
+    css:
+      - custom.scss
+    grid:
+        sidebar-width: 300px
+        body-width: 800px
+        margin-width: 300px
+        gutter-width: 1em
     fontsize: 1.2em
+    linestretch: 1.5
     smooth-scroll: true
-    linkcolor: "#62259d"
-    link-external-newwindow: true
+    linkcolor: "#960000"
+    title-block-banner: false
   PrettyPDF-pdf: default
 fig-responsive: true
 image-alt: " "
